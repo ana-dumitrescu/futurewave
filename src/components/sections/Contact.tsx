@@ -35,20 +35,31 @@ export function Contact() {
                     </div>
 
                     <GlassCard className="p-8">
-                        <form className="space-y-4">
+                        <form
+                            action="https://formsubmit.co/anaandreeadumitrescu@gmail.com"
+                            method="POST"
+                            className="space-y-4"
+                        >
+                            {/* Honeypot spam prevention */}
+                            <input type="text" name="_honey" style={{ display: 'none' }} />
+                            {/* Disable captcha page */}
+                            <input type="hidden" name="_captcha" value="false" />
+                            {/* Redirect back to site after submission */}
+                            <input type="hidden" name="_next" value="https://futurewave.dev" />
+
                             <div className="space-y-2">
                                 <label className="text-sm text-gray-400">Name</label>
-                                <input type="text" className="w-full bg-black/50 border border-white/10 rounded-lg p-3 text-white focus:outline-none focus:border-neon-cyan transition-colors" placeholder="John Doe" />
+                                <input type="text" name="name" required className="w-full bg-black/50 border border-white/10 rounded-lg p-3 text-white focus:outline-none focus:border-neon-cyan transition-colors" placeholder="Your name" />
                             </div>
                             <div className="space-y-2">
                                 <label className="text-sm text-gray-400">Email</label>
-                                <input type="email" className="w-full bg-black/50 border border-white/10 rounded-lg p-3 text-white focus:outline-none focus:border-neon-cyan transition-colors" placeholder="john@example.com" />
+                                <input type="email" name="email" required className="w-full bg-black/50 border border-white/10 rounded-lg p-3 text-white focus:outline-none focus:border-neon-cyan transition-colors" placeholder="your@email.com" />
                             </div>
                             <div className="space-y-2">
                                 <label className="text-sm text-gray-400">Message</label>
-                                <textarea rows={4} className="w-full bg-black/50 border border-white/10 rounded-lg p-3 text-white focus:outline-none focus:border-neon-cyan transition-colors" placeholder="Hello..." />
+                                <textarea name="message" rows={4} required className="w-full bg-black/50 border border-white/10 rounded-lg p-3 text-white focus:outline-none focus:border-neon-cyan transition-colors" placeholder="Your message..." />
                             </div>
-                            <Button className="w-full">Send Message</Button>
+                            <Button type="submit" className="w-full">Send Message</Button>
                         </form>
                     </GlassCard>
                 </div>
