@@ -8,7 +8,7 @@ export const portfolioData = {
     email: "anaandreeadumitrescu@gmail.com",
     socials: [
       { name: "GitHub", url: "https://github.com/ana-dumitrescu", icon: Github },
-      { name: "LinkedIn", url: "https://www.linkedin.com/in/ana-andreea-dumitrescu-2bb628143/", icon: Linkedin },
+      { name: "LinkedIn", url: "https://www.linkedin.com/in/ana-dumitrescu-dev", icon: Linkedin },
       { name: "Email", url: "mailto:anaandreeadumitrescu@gmail.com", icon: Mail },
     ],
     about: "Full-stack developer building modern web applications with React, Next.js, and TypeScript. I specialize in AI integration, gesture recognition systems, and user-focused product development. Currently focused on creating practical tools that solve real-world problems - from AI-powered goal management to hands-free productivity systems. 2 years of professional experience building scalable applications.",
