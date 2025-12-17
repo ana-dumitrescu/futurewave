@@ -11,7 +11,7 @@ export const portfolioData = {
       { name: "LinkedIn", url: "https://www.linkedin.com/in/ana-dumitrescu-dev", icon: Linkedin },
       { name: "Email", url: "mailto:anaandreeadumitrescu@gmail.com", icon: Mail },
     ],
-    about: "Full-stack developer building modern web applications with React, Next.js, and TypeScript. I specialize in AI integration, gesture recognition systems, and user-focused product development. Currently focused on creating practical tools that solve real-world problems - from AI-powered goal management to hands-free productivity systems. 2 years of professional experience building scalable applications.",
+    about: "Full-stack developer building modern web applications with React, Next.js, and TypeScript. I specialize in AI integration, gesture recognition systems, and user-focused product development. Currently focused on creating practical tools that solve real-world problems - from AI-powered goal management to hands-free productivity systems. Over 3 years of professional experience building scalable applications.",
   },
   skills: [
     { name: "React / Next.js", level: 95, icon: Code2, category: "Frontend" },
