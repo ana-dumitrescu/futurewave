@@ -45,7 +45,7 @@ export function Contact() {
                             {/* Disable captcha page */}
                             <input type="hidden" name="_captcha" value="false" />
                             {/* Redirect back to site after submission */}
-                            <input type="hidden" name="_next" value="https://futurewave.dev" />
+                            <input type="hidden" name="_next" value="http://localhost:3000/#contact" />
 
                             <div className="space-y-2">
                                 <label className="text-sm text-gray-400">Name</label>

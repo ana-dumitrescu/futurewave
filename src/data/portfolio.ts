@@ -46,7 +46,7 @@ export const portfolioData = {
       id: "project-3",
       title: "Gesture Workspace",
       description: "Full-stack gesture recognition platform combining MediaPipe AI, React/TypeScript, and real-time computer vision to enable hands-free control of productivity workflows. Implements custom gesture detection algorithms for video playback, task management, and calendar integration.",
-      tech: ["React", "Vite", "TypeScript", "MediaPipe", "TensorFlow.js"],
+      tech: ["React", "Vite", "TypeScript", "MediaPipe"],
       link: "https://gesture-workspace.vercel.app/",
       github: "https://github.com/ana-dumitrescu/gesture-workspace",
       image: "/projects/gesture-control.png",
